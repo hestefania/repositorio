@@ -1,0 +1,36 @@
+<doctype html>
+<html>
+
+<head>
+
+<title>Te amo meu amor, meu noivo, meu namorado para sempre</title>
+
+</head>
+<body>
+<button id ="contaDias">Contar dias </button>
+<button id ="clear">limpar</button>
+<div id="results"></div>
+
+
+
+<script src="js/zepto.min.js"></script>
+<script src="js/newday.js"></script>
+
+
+<script>
+$('#contaDias').click(function(){
+  newday.getDay($('#results'));
+});
+$('#clear').click(function(){
+  $('#results').html('');
+});
+
+</script>
+ 
+</body>
+
+
+
+</head>
+
+</html>
